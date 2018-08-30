@@ -1,8 +1,11 @@
 extends layout
 
 block content
-	h1= title
+	h1= dataTest.data.title
 	figure
-		img(src="./img/logo.png", alt="")
-	p Welcome to #{title}
-	
+		img(src=dataTest.data.img, alt="")
+	p=dataTest.data.desc
+	ul
+		- for(x=0;x<dataTest.data.list.length;x++)
+			li
+				a(href="#") #{dataTest.data.list[x]}
