@@ -7,6 +7,16 @@
 			"fweafew",
 			"fweafeawaf",
 			"fweaf fewa"
+		],
+		"news":[
+			{
+				"name": "title abc",
+				"desc": "fweafewffwafewfwafwe fewafew w fwaefe"
+			},
+			{
+				"name": "title def",
+				"desc": "abcfweafewffwafewfwafwefe fewafewaefawfwe"
+			}
 		]
 	}
 }

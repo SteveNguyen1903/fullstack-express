@@ -8,4 +8,12 @@ block content
 	ul
 		- for(x=0;x<dataTest.data.list.length;x++)
 			li
-				a(href="#") #{dataTest.data.list[x]}
+				- if(x==1)
+					a(href="#") #{dataTest.data.list[x]} 123
+				- else
+					a(href="#") #{dataTest.data.list[x]}
+
+	- for(x=0;x<dataTest.data.news.length;x++)
+		.item
+			h2=dataTest.data.news[x].name
+			p=dataTest.data.news[x].desc

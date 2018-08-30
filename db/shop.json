@@ -1,0 +1,22 @@
+{
+	"data": [
+		{
+			"name": "Product 1",
+			"price": "21",
+			"img": "http://localhost:3000/img/logo.png",
+			"desc": "fweafew fwfewfew"
+		},
+		{
+			"name": "Product 2",
+			"price": "31",
+			"img": "http://localhost:3000/img/logo.png",
+			"desc": "fweafew fwffwafwe"
+		},
+		{
+			"name": "Product 3",
+			"price": "123",
+			"img": "http://localhost:3000/img/logo.png",
+			"desc": "fweafew ifawefew"
+		}
+	]
+}
